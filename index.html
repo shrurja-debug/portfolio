@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urja Shrestha - Art & Projects Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>✨ Urja Shrestha</h1>
+            </div>
+            <div class="nav-tabs">
+                <button class="tab-btn active" onclick="showTab('home')">Home</button>
+                <button class="tab-btn" onclick="showTab('art')">Art</button>
+                <button class="tab-btn" onclick="showTab('projects')">Telescope Projects</button>
+            </div>
+        </nav>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="tab-content active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>Welcome to My Creative Space</h2>
+                    <div class="bio">
+                        <p>Hi! I'm <strong>Urja Shrestha</strong>, a sophomore at THHS passionate about digital art and astronomy.</p>
+                        <p>I create cosmic-inspired artwork and work on telescope projects exploring the night sky. This portfolio showcases my creative journey blending art and science.</p>
+                    </div>
+                    <div class="cta-buttons">
+                        <button class="btn primary" onclick="showTab('art')">View My Art →</button>
+                        <button class="btn secondary" onclick="showTab('projects')">See Projects →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ART SECTION -->
+        <section id="art" class="tab-content">
+            <h2>Digital Art Gallery</h2>
+            <div class="gallery">
+                <div class="art-card">
+                    <img src="images/art-1.jpg" alt="Galaxy Exploration">
+                    <div class="card-content">
+                        <h3>Galaxy Exploration</h3>
+                        <p>A digital piece exploring the wonders of space with vibrant nebula colors and cosmic energy.</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <img src="images/art-2.jpg" alt="Constellation Girl">
+                    <div class="card-content">
+                        <h3>Constellation Girl</h3>
+                        <p>An artistic representation combining human figures with constellation patterns under the stars.</p>
+                    </div>
+                </div>
+                <div class="art-card">
+                    <img src="images/placeholder-art.jpg" alt="Coming Soon">
+                    <div class="card-content">
+                        <h3>Coming Soon</h3>
+                        <p>More artwork coming soon! Stay tuned for new pieces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="tab-content">
+            <h2>Telescope & Astronomy Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🔭</div>
+                    <h3>Telescope Project 1</h3>
+                    <p>Description of your first telescope project and what you learned from building or observing with it.</p>
+                    <a href="#" class="project-link">Learn More →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌌</div>
+                    <h3>Telescope Project 2</h3>
+                    <p>Details about your second project exploring celestial objects or astronomical phenomena.</p>
+                    <a href="#" class="project-link">Learn More →</a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">⭐</div>
+                    <h3>Telescope Project 3</h3>
+                    <p>Information about additional projects and observations you've conducted.</p>
+                    <a href="#" class="project-link">Learn More →</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Urja Shrestha. All rights reserved. | Passionate about art and astronomy</p>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">Instagram</a>
+            <a href="#">Email</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
